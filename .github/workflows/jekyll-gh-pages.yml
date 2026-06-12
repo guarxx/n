@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Jika index.html berada langsung di root repositori:
-          path: '../frontend/'
+          path: 'frontend/'
           
       - name: Deploy to GitHub Pages
         id: deployment
